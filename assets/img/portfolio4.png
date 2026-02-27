@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f0f4ff"/>
+  
+  <!-- Title background -->
+  <rect width="400" height="80" fill="#4a69bd" opacity="0.9"/>
+  
+  <!-- Title text -->
+  <text x="200" y="50" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#fff" text-anchor="middle">Algorithm Visualizer</text>
+  
+  <!-- Code representation -->
+  <g transform="translate(20, 100)">
+    <!-- Lines representing code -->
+    <rect x="0" y="0" width="360" height="10" fill="#4a69bd" opacity="0.6"/>
+    <rect x="0" y="15" width="280" height="10" fill="#4a69bd" opacity="0.6"/>
+    <rect x="0" y="30" width="320" height="10" fill="#4a69bd" opacity="0.6"/>
+    <rect x="0" y="45" width="240" height="10" fill="#4a69bd" opacity="0.6"/>
+    <rect x="0" y="60" width="290" height="10" fill="#4a69bd" opacity="0.6"/>
+  </g>
+  
+  <!-- Visualization elements -->
+  <g transform="translate(150, 180)">
+    <rect x="-40" y="0" width="20" height="40" fill="#ff6b6b"/>
+    <rect x="-10" y="0" width="20" height="80" fill="#4a69bd"/>
+    <rect x="20" y="0" width="20" height="60" fill="#51cf66"/>
+    <rect x="50" y="0" width="20" height="50" fill="#ffd93d"/>
+  </g>
+  
+  <!-- Border -->
+  <rect x="0" y="0" width="400" height="300" fill="none" stroke="#4a69bd" stroke-width="3"/>
+</svg>
